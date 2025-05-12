@@ -14,7 +14,7 @@ function InterviewCard({ interview, viewDetail = false }) {
     }
 
     const onSend = () => {
-        window.location.href = "mailto:accounts@tubeguruji.com?subject=AiCruiter Interview Link & body=Interview Link:" + url
+        window.location.href = "mailto:vanshajfirebase@gmail.com?subject=CodashMeet Interview Link & body=Interview Link:" + url
     }
 
     return (

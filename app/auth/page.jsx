@@ -34,7 +34,7 @@ function Login() {
                         height={400}
                         className='w-[400px] h-[250px]  rounded-2xl'
                     />
-                    <h2 className='text-2xl font-bold text-center mt-5'>Welcome to AiCruiter</h2>
+                    <h2 className='text-2xl font-bold text-center mt-5'>Welcome to CodashMeet</h2>
                     <p className='text-gray-500 text-center'>Sign In With Google Authentication</p>
                     <Button className='mt-7 w-full'
                         onClick={signInWithGoogle}
