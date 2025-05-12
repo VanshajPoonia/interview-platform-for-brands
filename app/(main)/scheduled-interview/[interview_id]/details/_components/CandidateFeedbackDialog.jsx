@@ -51,16 +51,16 @@ function CandidateFeedbackDialog({ candidate }) {
                                         <Progress value={feedback?.rating?.problemSolving * 10} className='mt-1' />
                                     </div>
                                     <div>
-                                        <h2 className='flex justify-between'>Experince <span>{feedback?.rating?.experience}/10</span></h2>
+                                        <h2 className='flex justify-between'>Experience <span>{feedback?.rating?.experience}/10</span></h2>
                                         <Progress value={feedback?.rating?.experience * 10} className='mt-1' />
                                     </div>
                                 </div>
                             </div>
                             <div className='mt-5'>
-                                <h2 className='font-bold'>Performance Summery</h2>
+                                <h2 className='font-bold'>Performance Summary</h2>
                                 <div className='p-5 bg-secondary my-3 rounded-md'>
-                                    {feedback?.summery?.map((summery, index) => (
-                                        <p key={index}>{summery}</p>
+                                    {feedback?.summary?.map((summary, index) => (
+                                        <p key={index}>{summary}</p>
                                     ))}
                                 </div>
                             </div>
